@@ -82,3 +82,12 @@
 2026-04-16 19:11:27,829 | INFO | Binance client initialized successfully!
 2026-04-16 19:11:27,829 | INFO | Placing MARKET BUY order for 0.001 BTCUSDT
 2026-04-16 19:11:28,529 | INFO | Order placed successfully! ID: 13039900977
+2026-04-16 23:05:44,897 | INFO | Binance client initialized successfully!
+2026-04-16 23:05:44,897 | INFO | Placing MARKET BUY order for 0.001 BTCUSDT
+2026-04-16 23:05:45,794 | INFO | Order placed successfully! ID: 13040465849
+2026-04-16 23:07:26,830 | INFO | Binance client initialized successfully!
+2026-04-16 23:07:26,830 | INFO | Placing MARKET BUY order for 0.001 BTCUSDT
+2026-04-16 23:07:27,669 | INFO | Order placed successfully! ID: 13040469962
+2026-04-16 23:07:53,241 | INFO | Binance client initialized successfully!
+2026-04-16 23:07:53,241 | INFO | Placing LIMIT SELL order for 0.001 BTCUSDT
+2026-04-16 23:07:54,295 | ERROR | Binance API error: APIError(code=-4024): Limit price can't be lower than 70405.73.

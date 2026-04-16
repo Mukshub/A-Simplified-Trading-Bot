@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Binance Futures Trading Bot</title>
+    <link rel="stylesheet", href="static/style.css">
+</head>
+<body>
+<div class="container">
+
+     <h1> BINANCE FUTURES BOT</h1>
+
+    <form id="orderForm">
+        <label>SYMBOL</label>
+        <input type="text" name="symbol" id="symbol" placeholder="e.g. BTCUSDT" required>
+
+        <label>SIDE</label>
+        <select name="side" id="side">
+            <option value="BUY">BUY</option>
+            <option value="SELL">SELL</option>
+        </select>
+
+        <label>ORDER TYPE</label>
+        <select name="order_type" id="order_type">
+            <option value="MARKET">MARKET</option>
+            <option value="LIMIT">LIMIT</option>
+        </select>
+
+        <label>QUANTITY</label>
+        <input type="number" name="quantity" id="quantity" placeholder="e.g. 0.001" step="any" required>
+
+        <div id="priceField">
+            <label>PRICE (LIMIT ONLY)</label>
+            <input type="number" name="price" id="price" placeholder="e.g. 75000" step="any">
+        </div>
+
+        <button type="button" onclick="placeOrder()">PLACE ORDER</button>
+    </form>
+
+    <div id="result"></div>
+</div>
+
+<div id="success-popup" style="
+    display: none;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background: #22c55e;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 10px;
+    font-size: 18px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+">
+    ✔ Order Placed Successfully
+</div>
+<script>
+    document.getElementById('order_type').addEventListener('change', function() {
+        document.getElementById('priceField').style.display =
+            this.value === 'LIMIT' ? 'block' : 'none';
+    });
+
+    document.getElementById('priceField').style.display = 'none';
+
+    async function placeOrder() {
+        const form = document.getElementById('orderForm');
+        const formData = new FormData(form);
+        const resultDiv = document.getElementById('result');
+
+        try {
+            const response = await fetch('/place-order', {
+                method: 'POST',
+                body: formData
+            });
+
+            const data = await response.json();
+            resultDiv.style.display = 'block';
+
+            if (data.success) {
+                resultDiv.className = 'success';
+                resultDiv.innerHTML = `
+                        ✅ ORDER PLACED SUCCESSFULLY<br>
+                        ─────────────────────────<br>
+                        Order ID: ${data.order.orderId}<br>
+                        Status: ${data.order.status}<br>
+                        Executed Qty: ${data.order.executedQty}<br>
+                        Avg Price: ${data.order.avgPrice || 'N/A'}
+                    `;
+            } else {
+                resultDiv.className = 'error';
+                resultDiv.innerHTML = `❌ ERROR: ${data.error}`;
+            }
+        } catch (err) {
+            resultDiv.style.display = 'block';
+            resultDiv.className = 'error';
+            resultDiv.innerHTML = `❌ ERROR: ${err.message}`;
+        }
+    }
+
+    window.addEventListener('DOMContentLoaded', () => {
+        const symbolInput = document.getElementById('symbol');
+
+        const savedSymbol = localStorage.getItem('symbol');
+        if (savedSymbol) {
+            symbolInput.value = savedSymbol;
+        }
+
+        symbolInput.addEventListener('input', () => {
+            localStorage.setItem('symbol', symbolInput.value);
+        });
+    });
+</script>
+</body>
+</html>

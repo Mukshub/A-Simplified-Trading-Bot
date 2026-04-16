@@ -33,8 +33,14 @@ SECRET_KEY=xx
 ```
 ## How to Run it
 
+# with Web UX
+* Run **python app.py**
+* go to [localhost:5000]() in your browser
+# In Terminal
 * To place a market order: `python cli.py --symbol BTCUSDT --side BUY --order-type MARKET --quantity 0.001`
 * To place a limit order: `python cli.py --symbol BTCUSDT --side SELL --order-type LIMIT --quantity 0.001 --price 75000`
+
+
 
 ## Assumptions
 * This bot only works on **Binance Futures Testnet**, not the real Binance market.

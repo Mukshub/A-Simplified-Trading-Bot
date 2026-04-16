@@ -1,0 +1,84 @@
+2026-04-16 18:18:29,494 | INFO | Binance client initialized successfully!
+2026-04-16 18:18:29,494 | INFO | Binance client initialized successfully!
+2026-04-16 18:18:29,494 | INFO | Binance client initialized successfully!
+2026-04-16 18:18:29,494 | INFO | Binance client initialized successfully!
+2026-04-16 18:18:29,495 | INFO | Placing MARKET BUY order for 0.001 BTCUSDT
+2026-04-16 18:18:29,495 | INFO | Placing MARKET BUY order for 0.001 BTCUSDT
+2026-04-16 18:18:29,495 | INFO | Placing MARKET BUY order for 0.001 BTCUSDT
+2026-04-16 18:18:29,495 | INFO | Placing MARKET BUY order for 0.001 BTCUSDT
+2026-04-16 18:18:30,345 | ERROR | Binance API error: APIError(code=-2015): Invalid API-key, IP, or permissions for action
+2026-04-16 18:18:30,345 | ERROR | Binance API error: APIError(code=-2015): Invalid API-key, IP, or permissions for action
+2026-04-16 18:18:30,345 | ERROR | Binance API error: APIError(code=-2015): Invalid API-key, IP, or permissions for action
+2026-04-16 18:18:30,345 | ERROR | Binance API error: APIError(code=-2015): Invalid API-key, IP, or permissions for action
+2026-04-16 18:18:30,346 | ERROR | Unexpected error: APIError(code=-2015): Invalid API-key, IP, or permissions for action
+2026-04-16 18:18:30,346 | ERROR | Unexpected error: APIError(code=-2015): Invalid API-key, IP, or permissions for action
+2026-04-16 18:18:30,346 | ERROR | Unexpected error: APIError(code=-2015): Invalid API-key, IP, or permissions for action
+2026-04-16 18:18:30,346 | ERROR | Unexpected error: APIError(code=-2015): Invalid API-key, IP, or permissions for action
+2026-04-16 18:22:56,604 | INFO | Binance client initialized successfully!
+2026-04-16 18:22:56,604 | INFO | Binance client initialized successfully!
+2026-04-16 18:22:56,604 | INFO | Binance client initialized successfully!
+2026-04-16 18:22:56,604 | INFO | Binance client initialized successfully!
+2026-04-16 18:22:56,605 | INFO | Placing MARKET BUY order for 0.001 BTCUSDT
+2026-04-16 18:22:56,605 | INFO | Placing MARKET BUY order for 0.001 BTCUSDT
+2026-04-16 18:22:56,605 | INFO | Placing MARKET BUY order for 0.001 BTCUSDT
+2026-04-16 18:22:56,605 | INFO | Placing MARKET BUY order for 0.001 BTCUSDT
+2026-04-16 18:22:57,295 | ERROR | Binance API error: APIError(code=-2015): Invalid API-key, IP, or permissions for action
+2026-04-16 18:22:57,295 | ERROR | Binance API error: APIError(code=-2015): Invalid API-key, IP, or permissions for action
+2026-04-16 18:22:57,295 | ERROR | Binance API error: APIError(code=-2015): Invalid API-key, IP, or permissions for action
+2026-04-16 18:22:57,295 | ERROR | Binance API error: APIError(code=-2015): Invalid API-key, IP, or permissions for action
+2026-04-16 18:22:57,296 | ERROR | Unexpected error: APIError(code=-2015): Invalid API-key, IP, or permissions for action
+2026-04-16 18:22:57,296 | ERROR | Unexpected error: APIError(code=-2015): Invalid API-key, IP, or permissions for action
+2026-04-16 18:22:57,296 | ERROR | Unexpected error: APIError(code=-2015): Invalid API-key, IP, or permissions for action
+2026-04-16 18:22:57,296 | ERROR | Unexpected error: APIError(code=-2015): Invalid API-key, IP, or permissions for action
+2026-04-16 18:29:52,219 | INFO | Binance client initialized successfully!
+2026-04-16 18:29:52,219 | INFO | Binance client initialized successfully!
+2026-04-16 18:29:52,219 | INFO | Binance client initialized successfully!
+2026-04-16 18:29:52,219 | INFO | Binance client initialized successfully!
+2026-04-16 18:29:52,219 | INFO | Placing MARKET BUY order for 0.001 BTCUSDT
+2026-04-16 18:29:52,219 | INFO | Placing MARKET BUY order for 0.001 BTCUSDT
+2026-04-16 18:29:52,219 | INFO | Placing MARKET BUY order for 0.001 BTCUSDT
+2026-04-16 18:29:52,219 | INFO | Placing MARKET BUY order for 0.001 BTCUSDT
+2026-04-16 18:29:52,925 | INFO | Order placed successfully! ID: 13039835247
+2026-04-16 18:29:52,925 | INFO | Order placed successfully! ID: 13039835247
+2026-04-16 18:29:52,925 | INFO | Order placed successfully! ID: 13039835247
+2026-04-16 18:29:52,925 | INFO | Order placed successfully! ID: 13039835247
+2026-04-16 18:30:20,794 | INFO | Binance client initialized successfully!
+2026-04-16 18:30:20,794 | INFO | Binance client initialized successfully!
+2026-04-16 18:30:20,794 | INFO | Binance client initialized successfully!
+2026-04-16 18:30:20,794 | INFO | Binance client initialized successfully!
+2026-04-16 18:30:20,795 | INFO | Placing LIMIT SELL order for 0.001 BTCUSDT
+2026-04-16 18:30:20,795 | INFO | Placing LIMIT SELL order for 0.001 BTCUSDT
+2026-04-16 18:30:20,795 | INFO | Placing LIMIT SELL order for 0.001 BTCUSDT
+2026-04-16 18:30:20,795 | INFO | Placing LIMIT SELL order for 0.001 BTCUSDT
+2026-04-16 18:30:21,518 | ERROR | Binance API error: APIError(code=-4024): Limit price can't be lower than 70844.95.
+2026-04-16 18:30:21,518 | ERROR | Binance API error: APIError(code=-4024): Limit price can't be lower than 70844.95.
+2026-04-16 18:30:21,518 | ERROR | Binance API error: APIError(code=-4024): Limit price can't be lower than 70844.95.
+2026-04-16 18:30:21,518 | ERROR | Binance API error: APIError(code=-4024): Limit price can't be lower than 70844.95.
+2026-04-16 18:30:21,519 | ERROR | Unexpected error: APIError(code=-4024): Limit price can't be lower than 70844.95.
+2026-04-16 18:30:21,519 | ERROR | Unexpected error: APIError(code=-4024): Limit price can't be lower than 70844.95.
+2026-04-16 18:30:21,519 | ERROR | Unexpected error: APIError(code=-4024): Limit price can't be lower than 70844.95.
+2026-04-16 18:30:21,519 | ERROR | Unexpected error: APIError(code=-4024): Limit price can't be lower than 70844.95.
+2026-04-16 18:30:49,385 | INFO | Binance client initialized successfully!
+2026-04-16 18:30:49,385 | INFO | Binance client initialized successfully!
+2026-04-16 18:30:49,385 | INFO | Binance client initialized successfully!
+2026-04-16 18:30:49,385 | INFO | Binance client initialized successfully!
+2026-04-16 18:30:49,386 | INFO | Placing LIMIT SELL order for 0.001 BTCUSDT
+2026-04-16 18:30:49,386 | INFO | Placing LIMIT SELL order for 0.001 BTCUSDT
+2026-04-16 18:30:49,386 | INFO | Placing LIMIT SELL order for 0.001 BTCUSDT
+2026-04-16 18:30:49,386 | INFO | Placing LIMIT SELL order for 0.001 BTCUSDT
+2026-04-16 18:30:50,150 | INFO | Order placed successfully! ID: 13039836476
+2026-04-16 18:30:50,150 | INFO | Order placed successfully! ID: 13039836476
+2026-04-16 18:30:50,150 | INFO | Order placed successfully! ID: 13039836476
+2026-04-16 18:30:50,150 | INFO | Order placed successfully! ID: 13039836476
+2026-04-16 18:32:18,393 | INFO | Binance client initialized successfully!
+2026-04-16 18:32:18,393 | INFO | Placing LIMIT SELL order for 0.001 BTCUSDT
+2026-04-16 18:32:19,171 | INFO | Order placed successfully! ID: 13039838367
+2026-04-16 18:32:23,218 | INFO | Binance client initialized successfully!
+2026-04-16 18:32:23,219 | INFO | Placing MARKET BUY order for 0.001 BTCUSDT
+2026-04-16 18:32:23,977 | INFO | Order placed successfully! ID: 13039838511
+2026-04-16 19:11:11,940 | INFO | Binance client initialized successfully!
+2026-04-16 19:11:11,941 | INFO | Placing LIMIT SELL order for 0.001 BTCUSDT
+2026-04-16 19:11:12,812 | INFO | Order placed successfully! ID: 13039900546
+2026-04-16 19:11:27,829 | INFO | Binance client initialized successfully!
+2026-04-16 19:11:27,829 | INFO | Placing MARKET BUY order for 0.001 BTCUSDT
+2026-04-16 19:11:28,529 | INFO | Order placed successfully! ID: 13039900977
